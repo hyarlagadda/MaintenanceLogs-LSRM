@@ -1,0 +1,10 @@
+{
+  "description": "Manage small aircraft details and track maintenance documents like safety alerts and service bulletins to ensure compliance and safety.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
