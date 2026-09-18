@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Work+Sans:wght@400;500;600;700&family=Roboto+Slab:wght@400;600;700&display=swap');
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+@theme inline {
+  --color-background: #f0f0eb;
+  --color-foreground: #1a1a18;
+  --color-card: #ffffff;
+  --color-card-foreground: #1a1a18;
+  --color-primary: #1a3a5c;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #e4e4de;
+  --color-secondary-foreground: #3a3a35;
+  --color-muted: #d8d8d0;
+  --color-muted-foreground: #6b6b60;
+  --color-accent: #c84b11;
+  --color-accent-foreground: #ffffff;
+  --color-border: #c8c8c0;
+  --color-ring: #1a3a5c;
+  --color-status-alert: #c84b11;
+  --color-status-bulletin: #1a6b4a;
+  --color-status-pending: #8b6914;
+  --radius: 2px;
+  --font-sans: 'Work Sans', sans-serif;
+  --font-serif: 'Roboto Slab', serif;
+  --font-mono: 'DM Mono', monospace;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+*:hover {
+  scrollbar-color: var(--color-border) transparent;
+}
